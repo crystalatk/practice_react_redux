@@ -1,10 +1,10 @@
-import Output from "./Output";
+import Output from "../containers/OutputContainer";
 
 const Counter = (props) => (
-    <>
-        <h1>The MOST Amazing Counting App EVAR!</h1>
-        <Output amount={42} />
-    </>
+  <>
+    <h1>The MOST Amazing Counting App EVAR!</h1>
+    <Output />
+  </>
 );
 
 export default Counter;
